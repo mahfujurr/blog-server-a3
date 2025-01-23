@@ -2,7 +2,7 @@
 
 ## Live URL
 
-[Live Application](#) (https://blog-server-a3.vercel.app/)
+[Live Application] (https://blog-server-a3.vercel.app/)
 
 ---
 

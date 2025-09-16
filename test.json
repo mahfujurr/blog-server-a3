@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "67f29f6756c4a6e6af06a784",
+    "selectedType": "main",
+    "items": {
+      "itemDescription": "Polyol Puranol PP3010",
+      "origin": "China",
+      "packing": "1000 Kg IBC",
+      "qty": 10,
+      "purchasePrice": 100,
+      "sellingPrice": 120,
+      "_id": "67f3867d56c4a6e6af06ab87"
+    },
+    "__v": 0,
+    "date": "2025-04-06T18:00:00.000Z",
+    "estimatedArrivalDate1": "2025-04-09T18:00:00.000Z",
+    "shipmentDate1": "2025-04-07T18:00:00.000Z",
+    "shippingDate": "2025-04-07T18:00:00.000Z"
+  },
+  {
+    "_id": "67f29f6756c4a6e6af06a784",
+    "selectedType": "main",
+    "items": {
+      "itemDescription": "TDI 80/20",
+      "origin": "S. Korea",
+      "packing": "250 Kg Drums",
+      "grade": "80 / 20",
+      "qty": 9,
+      "purchasePrice": 1000,
+      "sellingPrice": 1200,
+      "_id": "67f3867d56c4a6e6af06ab88"
+    },
+
+    "__v": 0,
+    "date": "2025-04-06T18:00:00.000Z",
+    "estimatedArrivalDate1": "2025-04-09T18:00:00.000Z",
+    "shipmentDate1": "2025-04-07T18:00:00.000Z",
+    "shippingDate": "2025-04-07T18:00:00.000Z"
+  }
+]

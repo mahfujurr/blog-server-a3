@@ -1,23 +1,50 @@
 import { Router } from 'express';
-import { AdminRoutes } from '../modules/Admin/admin.route';
-import { AuthRoutes } from '../modules/Auth/auth.route';
-import { BlogRoutes } from '../modules/blog/blog.route';
+import { EntityRoutes } from '../modules/entity/entity.route';
+import { ItemRoutes } from '../modules/item/item.route';
+import { WarehouseRoutes } from '../modules/warehouse/warehouse.route';
+import { ProductRoutes } from '../modules/product/product.route';
+import { OrderRoutes } from '../modules/order/order.route';
+import { WarehouseItemRoutes } from '../modules/warehouseItmes/warehouseItems.route';
+import { ReceiptRoutes } from '../modules/receipt/receipt.route';
+import { StockRoutes } from '../modules/stocks/stocks.route';
 
 const router = Router();
 
 const moduleRoutes = [
+
   {
-    path: '/blogs',
-    route: BlogRoutes,
+    path: '/entities',
+    route: EntityRoutes,
   },
   {
-    path: '/admin',
-    route: AdminRoutes,
+    path: '/categories',
+    route: ItemRoutes,
   },
   {
-    path: '/auth',
-    route: AuthRoutes,
+    path: '/warehouses',
+    route: WarehouseRoutes,
   },
+  {
+    path: '/warehouseitems',
+    route: WarehouseItemRoutes,
+  },
+  {
+    path: '/products',
+    route: ProductRoutes,
+  },
+  {
+    path: '/orders',
+    route: OrderRoutes,
+  },
+  {
+    path: '/receipts',
+    route: ReceiptRoutes,
+  },
+  {
+    path: '/stocks',
+    route: StockRoutes,
+  },
+
 ];
 
 moduleRoutes.forEach((route) => router.use(route.path, route.route));
